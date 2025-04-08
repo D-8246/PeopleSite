@@ -1,6 +1,6 @@
 ﻿$(() => {
 
-    let index = 0;
+    let index = 1;
     $('#add-rows').on('click', function () {
         AddRows();
         index++;
