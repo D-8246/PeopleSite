@@ -2,7 +2,7 @@
 
     let index = 1;
     $('#add-rows').on('click', function () {
-        AddRows();
+         $('#ppl-rows').append(AddRow());
         index++;
     })
 })
